@@ -5,32 +5,55 @@ index.css
 
 main {
     width: 70%;
+    max-width: 1200px;
     margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
   }
-  header,
-  nav,
-  article,
+  
+  header {
+    padding: 30px 20px;
+    margin-bottom: 15px;
+  }
+  
+  nav {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  article {
+    padding: 30px;
+    margin-bottom: 25px;
+  }
+  
   footer {
     padding: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
   
   h1 {
     font-family: Helvetica, sans-serif;
     color: #f2f0f0;
     text-align: center;
+    margin: 0;
+  }
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
   }
   
   header {
     /*   background-color: #2df3f4; */
     height: 200px;
-    
     background-image: url(https://mcusercontent.com/05932a47c1e271e93fb93da91/images/1b5e2e1f-2b6c-9c51-4c84-376a4c426067.jpg); 
-   
     background-repeat: no-repeat; 
-    background-size: cover;  
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 15px;
   }
     
   nav {
@@ -47,18 +70,24 @@ main {
   
   article p {
     text-align: center;
+    margin: 15px auto;
+    line-height: 1.6;
+  }
+  
+  article b {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
   }
   
   article img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
   }
   
   iframe {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
   }
   
   #aboutme {
@@ -106,6 +135,15 @@ main {
   #article12 {
     color: #536b70
   }
+  #article13 {
+    color: #536b70
+  }
+  .backToTop {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
   .backToTop a {
     font-size: 14px;
     color: #536b70;
@@ -117,4 +155,8 @@ main {
   
   a {
     color: #43565b;
+  }
+  
+  section {
+    margin-bottom: 0;
   }
