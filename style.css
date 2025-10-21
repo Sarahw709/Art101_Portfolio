@@ -5,7 +5,28 @@ index.css
 #cat-gif {
   position: fixed;
   top: 20px;
-  right: 20px;
+  right: -20px;
+  width: 250px;
+  height: auto;
+  z-index: 1000;
+  border-radius: 10px;
+}
+
+#cat-gif-bottom {
+  position: fixed;
+  bottom: 20px;
+  left: -20px;
+  width: 250px;
+  height: auto;
+  z-index: 1000;
+  border-radius: 10px;
+  transform: scaleX(-1);
+}
+
+#coffee-mug {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
   width: 100px;
   height: auto;
   z-index: 1000;
