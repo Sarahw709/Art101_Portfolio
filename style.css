@@ -25,12 +25,23 @@ index.css
 
 #flowers-gif {
   position: fixed;
-  top: 20px;
-  left: 20px;
-  width: 80px;
+  top: 40px;
+  left: -50px;
+  width: 280px;
   height: auto;
   z-index: 1000;
   border-radius: 10px;
+}
+
+#flowers-gif-bottom {
+  position: fixed;
+  bottom: 40px;
+  right: -50px;
+  width: 280px;
+  height: auto;
+  z-index: 1000;
+  border-radius: 10px;
+  transform: scaleX(-1) rotate(15deg);
 }
 
 #coffee-mug {
@@ -54,6 +65,26 @@ index.css
   transform: scaleX(-1);
 }
 
+#glitter-gif {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: auto;
+  z-index: 1000;
+  border-radius: 10px;
+}
+
+#glitter-gif-bottom {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 100px;
+  height: auto;
+  z-index: 1000;
+  border-radius: 10px;
+  transform: scaleX(-1);
+}
 
 main {
     width: 70%;
