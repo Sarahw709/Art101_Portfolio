@@ -148,6 +148,12 @@ main {
   
   .navH3 {
     margin: 0 15px;
+    white-space: nowrap;
+  }
+  
+  #top_nav {
+    white-space: nowrap;
+    overflow-x: auto;
   }
   
   .image-container {
