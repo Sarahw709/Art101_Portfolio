@@ -1,0 +1,90 @@
+<!--
+contact.html
+-->
+
+<img src="cat-gif.gif" id="cat-gif" alt="Cat animation">
+<img src="cat-gif.gif" id="cat-gif-bottom" alt="Cat animation">
+<img src="flowers.gif" id="flowers-gif" alt="Flowers animation">
+<img src="flowers.gif" id="flowers-gif-bottom" alt="Flowers animation">
+
+<main>
+    <header>
+      <h1>Sarah Wheeler's Portfolio</h1>
+    </header>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <style>
+      * {
+        font-family: Helvetica, sans-serif;
+      }
+      input, textarea, button {
+        font-family: Helvetica, sans-serif !important;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      input::placeholder, textarea::placeholder {
+        font-family: Helvetica, sans-serif !important;
+      }
+      button[type="submit"], 
+      button[type="submit"]:hover,
+      button[type="submit"]:active,
+      button[type="submit"]:focus {
+        font-family: Helvetica, sans-serif !important;
+        font: 16px Helvetica, sans-serif !important;
+      }
+      form button,
+      form button:hover,
+      form button:active,
+      form button:focus {
+        font-family: Helvetica, sans-serif !important;
+        font: 16px Helvetica, sans-serif !important;
+      }
+      section article form button[type="submit"] {
+        font-family: Helvetica, sans-serif !important;
+        font: 16px Helvetica, sans-serif !important;
+      }
+    </style>
+     <nav id = "top_nav">
+      <span class="navH3"><a href="index.html">Home</a></span>
+      <span class="navH3"><a href="about.html">About me</a></span>
+      <span class="navH3"><a href="SarahWheelerResume.pdf" target="_blank">Resume</a></span>
+    </nav>
+    
+    
+    <section>
+      <article>
+        <h2 style="color: #536b70;">Contact Me</h2>
+        <p style="text-align: center; color: #536b70;">
+          Please fill out the form below to get in touch with me. I'll get back to you as soon as possible!
+        </p>
+        
+        <form action="https://formspree.io/f/mlgrvelz" method="POST" style="max-width: 600px; margin: 0 auto; padding: 20px;">
+          <div style="margin-bottom: 20px;">
+            <label for="name" style="display: block; margin-bottom: 5px; color: #536b70; font-weight: bold;">Name:</label>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; border: 2px solid #a3c0c6; border-radius: 0; font-size: 16px; color: #536b70; background-color: #f2f0f0; font-family: Helvetica, sans-serif;">
+          </div>
+          
+          <div style="margin-bottom: 20px;">
+            <label for="email" style="display: block; margin-bottom: 5px; color: #536b70; font-weight: bold;">Email:</label>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; border: 2px solid #a3c0c6; border-radius: 0; font-size: 16px; color: #536b70; background-color: #f2f0f0; font-family: Helvetica, sans-serif;">
+          </div>
+          
+          <div style="margin-bottom: 20px;">
+            <label for="subject" style="display: block; margin-bottom: 5px; color: #536b70; font-weight: bold;">Subject:</label>
+            <input type="text" id="subject" name="subject" required style="width: 100%; padding: 10px; border: 2px solid #a3c0c6; border-radius: 0; font-size: 16px; color: #536b70; background-color: #f2f0f0; font-family: Helvetica, sans-serif;">
+          </div>
+          
+          <div style="margin-bottom: 20px;">
+            <label for="message" style="display: block; margin-bottom: 5px; color: #536b70; font-weight: bold;">Message:</label>
+            <textarea id="message" name="message" rows="6" required style="width: 100%; padding: 10px; border: 2px solid #a3c0c6; border-radius: 0; font-size: 16px; color: #536b70; background-color: #f2f0f0; font-family: Helvetica, sans-serif; resize: vertical;"></textarea>
+          </div>
+          
+          <div style="text-align: center;">
+            <button type="submit" style="background-color: #a3c0c6; color: #536b70; padding: 12px 30px; border: none; border-radius: 0; font-size: 16px; font-weight: normal; cursor: pointer; transition: background-color 0.3s;">
+              Send Message
+            </button>
+          </div>
+        </form>
+      </article>
+    </section>
+</main>
+
